@@ -1,4 +1,72 @@
-p {
-  background-color: red;
-  color: white;
+.card {
+  height: "100%";
+  display: block;
+  margin: auto;
+  border-color: purple;
+  border-style: double;
+  border-radius: 10px;
+  border-width: 3px;
+  top: 60px;
+  background-image: linear-gradient(to bottom right, #a5bdfd, #d9f2ff);
+}
+.row {
+  color: #fd5959;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.search {
+  color: #155263;
+  font-size: 20px;
+}
+.search:hover {
+  color: red;
+}
+hr {
+  color: #ff9c6d;
+}
+h2 {
+  color: #155263;
+  font-family: "Roboto", sans-serif;
+}
+.card-text {
+  padding-top: -200px;
+  color: #155263;
+}
+
+.degree {
+  color: #ff9a3c;
+  font-size: 45px;
+}
+.fas fa-cloud {
+  color: teal;
+}
+.features {
+  flex: 1;
+  height: 100%;
+  color: #155263;
+  justify-self: center;
+  align-self: center;
+  margin-left: 100px;
+}
+.color2 {
+  color: #ff9a3c;
+}
+.color3 {
+  color: grey;
+}
+.degrees {
+  color: #155263;
+}
+.percp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#degreeC {
+  color: blue;
+  font-size: 30px;
+}
+#degreeF {
+  color: blue;
+  font-size: 30px;
 }
